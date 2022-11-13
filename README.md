@@ -1,11 +1,12 @@
 #  **docker_upstream_check**
 
-A simple bash script to compare upstream docker repo to forked repo and update using github actions on ubuntu or debian variants.
+Two simple bash script to compare upstream docker repo to forked repo. Use docker_upstream_check_push to update a GIT repo that uses github actions.
 
 ## **Requirements**
 
  - [ ] Ubuntu or debian based OS for dpkg support
  - [ ] JQ package
+ - [ ] GIT if using docker_upstream_check_push (optional)
 
 ## How to use
 
